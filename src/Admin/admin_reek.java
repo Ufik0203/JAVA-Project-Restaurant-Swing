@@ -5,7 +5,6 @@
 package Admin;
 import FT_menu.ScrollBar;
 import G_Conection.Conection;
-import TUBES_PCD.Tubes_pcd;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.*;
@@ -29,7 +28,6 @@ public class admin_reek extends javax.swing.JFrame {
      */
     private Timer timer;
     private menu_configuration m_conf;
-    private Tubes_pcd pcd;
     
     public admin_reek() {
         initComponents();
@@ -472,9 +470,7 @@ public class admin_reek extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton3MouseClicked
-        pcd = new Tubes_pcd();
-        this.setVisible(false);
-        pcd.setVisible(true);
+
     }//GEN-LAST:event_jButton3MouseClicked
 
     private void jButton2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseClicked
